@@ -16,7 +16,8 @@ files = {
     "fact_folio_count": "data/raw/06_industry_folio_count.csv",
     "fact_performance": "data/processed/clean_scheme_performance.csv",
     "fact_transactions": "data/processed/clean_investor_transactions.csv",
-    "fact_holdings": "data/raw/09_portfolio_holdings.csv"
+    "fact_holdings": "data/raw/09_portfolio_holdings.csv",
+    "fact_benchmark": "data/processed/clean_benchmark_indices.csv"
 }
 
 for table, path in files.items():
